@@ -1,14 +1,14 @@
-import TransactionItem from "../TransactionHistory/TransactionHistory";
-import css from "../TransactionHistory/TransactionHistory.module.css";
+import TransactionItem from "./TransactionItem";
+import css from "../components/TransactionHistory.module.css";
 
 const TransactionHistory = ({ items }) => {
 	return (
 		<table className={css.table}>
 			<thead className={css.thead}>
 				<tr>
-					<th className={css.title}>Type</th>
-					<th className={css.title}>Amount</th>
-					<th className={css.title}>Currency</th>
+					<th className={css.ttitle}>Type</th>
+					<th className={css.ttitle}>Amount</th>
+					<th className={css.ttitle}>Currency</th>
 				</tr>
 			</thead>
 			<tbody>

@@ -1,7 +1,6 @@
-import css from "../Profile/Profile.module.css";
-
+import css from "../components/Profile.module.css";
 const Profile = ({ username, tag, location, avatar, stats }) => {
-    return (
+	return (
 		<div className={css.profilecard}>
 			<div className={css.profiledata}>
 				<img className={css.profileimg} src={avatar} alt="User avatar" width="250" />
